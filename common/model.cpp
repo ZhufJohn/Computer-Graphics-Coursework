@@ -219,7 +219,6 @@ void Model::addTexture(const char *path, const std::string type)
 
 unsigned int Model::loadTexture(const char *path)
 {
-
     unsigned int textureID;
     glGenTextures(1, &textureID);
 

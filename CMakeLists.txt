@@ -43,7 +43,22 @@ add_executable(Computer_Graphics_Coursework
 	source/coursework.cpp
 	source/vertexShader.glsl
 	source/fragmentShader.glsl
+	source/terrainVS.glsl
+	source/terrainFS.glsl
+	source/skyBoxVS.glsl
+	source/skyBoxFS.glsl
+	source/lightVS.glsl
+	source/lightFS.glsl
+	source/phongVS.glsl
+	source/phongFS.glsl
 
+	common/common.hpp
+	common/terrain.hpp
+	common/terrain.cpp
+	common/skyBox.hpp
+	common/skyBox.cpp
+	common/sphere.hpp
+	common/sphere.cpp
 	common/shader.hpp
 	common/texture.hpp
 	common/stb_image.hpp
